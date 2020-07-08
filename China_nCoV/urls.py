@@ -19,7 +19,7 @@ from app01.views import *
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$',main),
+    url(r'^index/',main),
     url(r'^time/',get_time),
     url(r'^num/',get_num),
     url(r'^day/',get_all_day),
